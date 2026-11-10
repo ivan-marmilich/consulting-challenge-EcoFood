@@ -1,0 +1,17 @@
+# Archivos temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Opcional: ignorar datasets pesados si hiciera falta en el futuro
+# data/raw/*
+# !data/raw/.gitkeep
